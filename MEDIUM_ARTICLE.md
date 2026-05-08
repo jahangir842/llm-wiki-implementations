@@ -1,16 +1,18 @@
-# LLM Wiki: The AI-Powered Personal Knowledge Base That Actually Compounds Over Time
+# RAG Is Dead. LLM Wiki — Andrej Karpathy's Idea — Is What Comes Next.
 
 *Stop losing insights to chat history. Let an AI build and maintain a living wiki from your documents.*
 
 ---
 
-There is a quiet frustration shared by almost everyone who uses AI tools regularly: every conversation starts from zero.
+Andrej Karpathy — the man who built Tesla's Autopilot AI from the ground up, who taught neural networks to hundreds of thousands through his legendary Stanford lectures, and who left OpenAI to go back to doing what he loves most: thinking deeply about where AI is actually going — recently proposed something quietly radical.
 
-You paste context, explain background, re-summarize what you already know — and once the tab closes, it is gone. The AI forgets everything. Your next session is blank again.
+He called it **LLM Wiki**.
 
-Andrej Karpathy, former Director of AI at Tesla and one of the clearest thinkers in the AI space, proposed a different model. He called it **LLM Wiki**.
+And if you have been paying attention to how AI tools actually fail people in practice, it lands like a slap.
 
-The idea is simple but powerful: instead of a chatbot that forgets, build a system where an LLM reads your documents and *writes* — maintaining a folder of interconnected Markdown files, one page per concept, linked together like Wikipedia. Knowledge does not disappear. It compounds.
+Here is the failure: every conversation you have with an AI starts from zero. You paste context, explain background, re-summarize what you already know — and once the tab closes, it is gone. The AI forgets everything. Your next session is blank again. Months of insights, research, and thinking: dissolved into chat history no one will ever read again.
+
+Karpathy proposed a different model entirely. Instead of a chatbot that forgets, build a system where an LLM reads your documents and *writes* — maintaining a folder of interconnected Markdown files, one page per concept, linked together like Wikipedia. Knowledge does not disappear. It compounds.
 
 This article is a practical guide to understanding what LLM Wiki is, the four major implementations available today, how to run any of them locally using Ollama or vLLM, and which models to choose.
 
