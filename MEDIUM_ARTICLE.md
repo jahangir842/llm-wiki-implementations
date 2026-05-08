@@ -14,7 +14,7 @@ Here is the failure: every conversation you have with an AI starts from zero. Yo
 
 Karpathy proposed a different model entirely. Instead of a chatbot that forgets, build a system where an LLM reads your documents and *writes* — maintaining a folder of interconnected Markdown files, one page per concept, linked together like Wikipedia. Knowledge does not disappear. It compounds.
 
-This article is a practical guide to understanding what LLM Wiki is, the four major implementations available today, how to run any of them locally using Ollama or vLLM, and which models to choose.
+This article is a practical guide to understanding what LLM Wiki is, the four major implementations available today, how to run any of them locally using Ollama or vLLM, and which models to choose. All setup instructions and configs are also documented in this companion repository: [github.com/jahangir842/llm-wiki-implementations](https://github.com/jahangir842/llm-wiki-implementations)
 
 ---
 
@@ -289,4 +289,4 @@ The best time to start building your wiki was six months ago. The second best ti
 
 ---
 
-*All four implementations are open source and actively maintained. Links to each are in the Resources section of the companion repository.*
+*All four implementations are open source and actively maintained. Full setup guides, configs, and model recommendations are collected in the companion repository: [github.com/jahangir842/llm-wiki-implementations](https://github.com/jahangir842/llm-wiki-implementations)*
